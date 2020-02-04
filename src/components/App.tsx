@@ -2,15 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Counter from './Counter';
-// import Hero from './Hero';
+import HeroesList from './HeroesList';
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
+        <h1>Teste</h1>
+        <HeroesList />
       </header>
     </div>
   );
